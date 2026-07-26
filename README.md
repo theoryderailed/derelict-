@@ -29,7 +29,7 @@ Anyone should be able to start playing in under five minutes.
 ## Files in this repository
 
 - [RULES.md](RULES.md) — Complete rules
-- [EXAMPLE.md](EXAMPLE.md) — Full example playthrough
+- [EXAMPLE-GAME.md](EXAMPLE-GAME.md) — Full example playthrough
 
 ---
 
