@@ -12,7 +12,7 @@ You are alone on a damaged or abandoned vessel or station. Something is wrong wi
 
 ## What You Need
 
-- One standard deck of 52 playing cards (Jokers optional)
+- One standard deck of 52 playing cards (Jokers removed)
 - One six-sided die (d6)
 - A notebook, document, or voice recorder for your log
 
