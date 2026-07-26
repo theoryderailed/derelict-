@@ -1,2 +1,42 @@
-# derelict-
-A single player solo rpg system. 
+# Derelict
+
+**A solo sci-fi / cosmic horror journaling RPG**
+
+You are alone on a damaged or abandoned vessel. Something is wrong with it — and it is getting worse. You keep a log while you try to survive, understand what happened, or simply hold on.
+
+Derelict is designed to be extremely simple:
+- One standard deck of playing cards
+- One six-sided die
+- A journal
+
+Anyone should be able to start playing in under five minutes.
+
+---
+
+## Quickstart
+
+1. Create a short character description (name + role + how you ended up alone).
+2. Set three tracks:
+   - **Integrity** = 6
+   - **Mind** = 6
+   - **Hope** = 4
+3. Shuffle a standard deck of cards.
+4. Write your opening log entry.
+5. Begin the core loop (see [RULES.md](RULES.md)).
+
+---
+
+## Files in this repository
+
+- [RULES.md](RULES.md) — Complete rules
+- [EXAMPLE.md](EXAMPLE.md) — Full example playthrough
+
+---
+
+## Design Goals
+
+- Extremely low barrier to entry
+- Strong focus on isolation and cosmic dread
+- Journaling as the primary output
+- Short, complete arcs of deterioration
+- No complex character stats or tables required
