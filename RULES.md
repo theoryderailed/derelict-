@@ -12,7 +12,7 @@ You are alone on a damaged or abandoned vessel or station. Something is wrong wi
 
 ## What You Need
 
-- One standard deck of 52 playing cards (Jokers removed)
+- One standard deck of 52 playing cards (**Jokers removed**)
 - One six-sided die (d6)
 - A notebook, document, or voice recorder for your log
 
@@ -47,7 +47,7 @@ When any track reaches **0**, something permanent and bad happens (see *Ending t
 
 1. Create your character.
 2. Set the three tracks to their starting values.
-3. Shuffle the deck.
+3. Shuffle the deck (Jokers removed).
 4. Write your opening log entry (how you arrived or woke up alone).
 
 ---
@@ -59,21 +59,64 @@ Each cycle represents a stretch of time (a few hours, a watch, or a day).
 1. **Draw one card**  
    This is the main event of the cycle.
 
-2. **Interpret the card** using the suit and rank guidance below.  
+2. **Check the rank to see if you must roll** (see *When to Roll* below).
+
+3. **Interpret the card** using the suit and rank guidance.  
    Decide what specifically happens in the fiction.
 
-3. **Resolve danger** (when needed)  
-   Roll the d6 when the situation is risky or the card demands it:
-   - **5–6**: Clean success
-   - **3–4**: Success with a cost (usually –1 to one track)
-   - **1–2**: Failure (usually –1 to two tracks, or –2 to one)
+4. **If a roll is required**, resolve it using the Resolution Table and Preferred Tracks.
 
-4. **Adjust tracks** according to the result and the intensity of the card.
+5. **Adjust tracks** according to the result.
 
-5. **Write a log entry**  
+6. **Write a log entry**  
    This is mandatory. Write in-character. The log *is* the game.
 
 Then begin the next cycle.
+
+---
+
+## When to Roll (Hard Rule)
+
+The rank of the card itself tells you whether to roll. No judgment required.
+
+| Rank                  | Roll Required? |
+|-----------------------|----------------|
+| **2 – 5**             | No             |
+| **6 – 10**            | **Yes**        |
+| **Jack, Queen, King** | **Yes**        |
+| **Ace**               | **Yes**        |
+
+- Rank **5 or lower** → Narrative only. Interpret and write the log.
+- Rank **6 or higher** → You **must** roll the d6.
+
+---
+
+## Resolution Table
+
+When a roll is required, use this table:
+
+| Roll  | Outcome            | Effect |
+|-------|--------------------|--------|
+| **5–6** | Clean Success     | You handle it well. No track loss. |
+| **3–4** | Success with Cost | You succeed, but it costs you. Reduce **one** track by 1. |
+| **1–2** | Failure           | Things go badly. Reduce **two** tracks by 1 each, **or** one track by 2. |
+
+---
+
+## Preferred Tracks by Suit
+
+When a roll forces you to reduce a track, use this guidance:
+
+| Suit       | Primary Track | Secondary Track | Notes |
+|------------|---------------|-----------------|-------|
+| **♠ Spades** (Threat)     | Integrity    | Mind     | Physical danger or confrontation |
+| **♥ Hearts** (Memory)     | Mind         | Hope     | Psychological impact |
+| **♦ Diamonds** (Systems)  | Integrity    | Hope     | Environment / equipment |
+| **♣ Clubs** (Cosmic)      | Mind         | Hope     | Reality-breaking pressure |
+
+**How to apply:**
+- On a **Success with Cost (3–4)**: Reduce the Primary track by 1. If that track is already at 1, reduce the Secondary instead.
+- On a **Failure (1–2)**: Reduce the Primary + Secondary by 1 each, **or** reduce the Primary by 2.
 
 ---
 
@@ -90,10 +133,10 @@ Then begin the next cycle.
 
 ### Rank Intensity
 
-- **2–5**: Low intensity. Subtle, deniable, or manageable.
-- **6–10**: Medium intensity. Clear and costly.
-- **Jack / Queen / King**: High intensity. Strong version of the suit.
-- **Ace**: Major turning point. Something permanent changes about the situation or the vessel.
+- **2–5**: Low intensity. Subtle, deniable, or manageable. (No roll)
+- **6–10**: Medium intensity. Clear and costly. (Must roll)
+- **Jack / Queen / King**: High intensity. Strong version of the suit. (Must roll)
+- **Ace**: Major turning point. Something permanent changes. (Must roll)
 
 Higher ranks should feel harder to ignore or rationalize.
 
@@ -125,6 +168,7 @@ These are not required. Use only if you want extra texture.
 ## Design Notes
 
 - Starting track values are fixed for consistency and speed of setup.
+- The roll trigger is now fully mechanical (rank 6+).
+- Preferred tracks remove ambiguity about which resource to lose.
 - The system is intentionally lethal and tends toward tragic or unsettling endings.
 - One short session (roughly 6–10 cycles) is a complete experience.
-- Longer play is possible by treating each major section of the vessel as a new phase and carefully managing track recovery.
