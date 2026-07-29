@@ -31,22 +31,31 @@ Interpret every card through this lens. The higher the rank, the more advanced o
 
 ---
 
-## Ship Layout & Zones
+## Ship Layout & Zones (Default)
 
-The *Orpheus* is divided into the following zones. You always know which zone you are currently in.
+The *Orpheus* uses this fixed non-linear layout. You always know which zone you are currently in.
 
-**CS Orpheus – Zone Map**
+```
+                    Observation Deck
+                           |
+Docking Ring / Airlock — Central Spine — Engineering — Escape / Shuttle Bay
+         |                     |
+ Forward Habitation       Mess & Commons
+         |                     |
+   Research Labs --------------+
+```
 
-- **Docking Ring / Airlock** ← *You start here*
-- ↔ Forward Habitation
-- ↔ Central Spine
-- ↔ Mess & Commons
-- ↔ Research Labs
-- ↔ Engineering
-- ↔ Observation Deck
-- ↔ Escape / Shuttle Bay
+**Starting Zone:** Docking Ring / Airlock
 
-Connections are two-way unless rewriting changes them.
+**Connections (two-way unless rewritten):**
+- Docking Ring ↔ Forward Habitation
+- Docking Ring ↔ Central Spine
+- Forward Habitation ↔ Research Labs
+- Central Spine ↔ Mess & Commons
+- Central Spine ↔ Engineering
+- Central Spine ↔ Observation Deck
+- Mess & Commons ↔ Research Labs
+- Engineering ↔ Escape / Shuttle Bay
 
 ### Moving Between Zones
 
@@ -253,9 +262,30 @@ A fundamental change in the nature of the *Orpheus*. The current zone (and possi
 
 ---
 
+## Optional Rule: Procedural Layout
+
+If you want a different map each game, use this method instead of the static layout:
+
+1. Remove one card of each rank from **1 through 8** (any suits).  
+   - The **1** is your starting zone (Docking Ring equivalent).  
+   - The **8** is the exit zone (Escape / Shuttle Bay equivalent).
+2. Place the **1** face-up in the center of the play area.
+3. Set the **8** aside.
+4. Shuffle the remaining cards (2–7) face-down.
+5. Reveal them one at a time. Place each revealed card adjacent (sharing a full side) to at least one already placed card. Build outward.
+6. Once all cards from 2–7 are placed, put the **8** on any open edge that does **not** share a side with the **1**.
+
+Assign the normal zone names to the ranked cards however you like (or leave them abstract). All other rules (movement rolls, zone status, rewriting) still apply.
+
+This method creates a unique layout each session but adds setup time. Recommended only after you are comfortable with the default game.
+
+---
+
 ## Design Notes
 
-- The roll trigger is now fully mechanical (any card rank 6+ requires a roll).
+- The roll trigger is fully mechanical (any card rank 6+ requires a roll).
 - Preferred tracks remove ambiguity about which resource to lose.
+- Default layout is static and non-linear to give meaningful route choices.
+- Procedural layout is available as an optional advanced rule.
 - Card effects primarily hit the zone you are currently in.
 - Success is possible but difficult.
