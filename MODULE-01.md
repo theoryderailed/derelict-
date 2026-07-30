@@ -89,11 +89,11 @@ Movement happens **after** resolving the card and writing the log (see Cycle Ord
 
 - **To a Stable zone**: Free. No roll. No damage.
 - **To a Hazardous zone**: Roll d6.  
-  - **5–6**: Arrive safely.  
-  - **1–4**: Arrive, but take –1 to the preferred track of the last card drawn (default to Integrity if no card has been drawn yet).
+  - **1-4**: Arrive safely.  
+  - **5-6**: Arrive, but take –1 to the preferred track of the last card drawn.
 - **To a Compromised zone**: Extremely dangerous. Roll d6.  
-  - **3–6**: Arrive.  
-  - **1–2**: Take –1 to the preferred track of the last card drawn. The zone remains difficult to leave.
+  - **5–6**: Arrive.  
+  - **1–4**: Take –1 to the preferred track of the last card drawn.
 
 ---
 
