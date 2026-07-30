@@ -57,14 +57,6 @@ Docking Ring / Airlock — Central Spine — Engineering — Escape / Shuttle Ba
 - Mess & Commons ↔ Research Labs
 - Engineering ↔ Escape / Shuttle Bay
 
-### Moving Between Zones
-
-When you want to move to a connected zone, roll the d6:
-
-- **5–6**: Clean arrival. You reach the new zone without trouble.
-- **3–4**: You arrive, but at a cost (–1 Integrity or –1 Mind, your choice).
-- **1–2**: Complication. You take damage (–1 to two tracks or –2 to one) **or** the connection becomes unreliable. Update your notes.
-
 ### Zone Status
 
 Each zone can be in one of three states:
@@ -83,11 +75,25 @@ Each zone can be in one of three states:
 - The zone was already Hazardous and you suffer another Failure (roll of 1–2) there
 - A high-intensity rewriting event explicitly destroys or fundamentally alters the zone
 
-Mark status changes next to the zone name (e.g. “Engineering – Hazardous”, “Escape Bay – COMPROMISED”).
+Mark status changes next to the zone name.
 
 **Effects of Status**
-- **Hazardous**: Moving into or out of the zone is more dangerous. Narrate extra risk or treat movement rolls as one step worse.
-- **Compromised**: The zone can no longer be used as a valid exit. If both exit zones (Docking Ring and Escape / Shuttle Bay) become Compromised, normal escape is no longer possible.
+- **Hazardous**: Risk when entering or leaving.
+- **Compromised**: Cannot be used as a valid exit. Extremely dangerous to enter or leave.
+
+---
+
+## Movement Rules
+
+Movement happens **after** resolving the card and writing the log (see Cycle Order in core rules).
+
+- **To a Stable zone**: Free. No roll. No damage.
+- **To a Hazardous zone**: Roll d6.  
+  - **5–6**: Arrive safely.  
+  - **1–4**: Arrive, but take –1 to the preferred track of the last card drawn (default to Integrity if no card has been drawn yet).
+- **To a Compromised zone**: Extremely dangerous. Roll d6.  
+  - **3–6**: Arrive.  
+  - **1–2**: Take –1 to the preferred track of the last card drawn. The zone remains difficult to leave.
 
 ---
 
@@ -101,18 +107,18 @@ Use the standard starting values from the core rules:
 | Mind        | 6              |
 | Hope        | 4              |
 
-When Integrity drops, describe systems not just breaking, but *changing* — bulkheads growing seams that look like scars, interfaces responding in ways they shouldn’t, materials that no longer behave like metal or polymer.
+When Integrity drops, describe systems not just breaking, but *changing*.
 
 ---
 
-## Card Resolution (Core Rules Apply)
+## Card Resolution
 
-Use the core rules for when to roll and how to resolve:
+Follow the core rules:
 
 - Rank **2–5**: No roll. Narrative only.
-- Rank **6+** (including face cards and Aces): **Must roll**.
+- Rank **6+**: **Must roll**.
 
-**Preferred Tracks** (from core rules):
+**Preferred Tracks**:
 
 | Suit       | Primary   | Secondary |
 |------------|-----------|-----------|
@@ -131,33 +137,33 @@ To achieve a successful ending you must accomplish **all** of the following befo
 
 1. Be in the **Docking Ring / Airlock** or **Escape / Shuttle Bay** zone.
 2. That exit zone must **not** be Compromised.
-3. Attempt to transmit or secure a final warning log and resolve the transmission roll (see below).
+3. Attempt to transmit or secure a final warning log and resolve the transmission roll.
 
 ### Final Transmission Roll
 
-When you decide to send or secure the warning, make one final d6 roll. Apply these modifiers:
+Make one final d6 roll with these modifiers:
 
-- **+1** if your current Mind is 3 or higher  
-- **+1** if your current Hope is 3 or higher  
-- **–1** if Integrity is 2 or lower
+- **+1** if Mind is 3 or higher  
+- **+1** if Hope is 3 or higher  
+- **–1** if Integrity is 2 or lower  
 
-You may spend one final cycle carefully preparing the transmission. If you do, gain an additional **+1**, but you must still draw a card for that cycle as normal.
+You may spend one final cycle preparing carefully (+1), but you must still draw a card.
 
 | Roll     | Outcome |
 |----------|---------|
-| **6+**   | Clean transmission. The full warning reaches someone. Strong success. |
-| **4–5**  | Partial success. The log arrives damaged or incomplete. Enough remains to serve as a warning. |
-| **2–3**  | Failure. The transmission is scrambled or never leaves the ship. You escape, but the warning does not. |
-| **1 or less** | Catastrophic. The ship rewrites or corrupts the log. What gets out is misleading or dangerous. |
+| **6+**   | Clean transmission. Full warning reaches someone. |
+| **4–5**  | Partial success. Warning arrives damaged but usable. |
+| **2–3**  | Failure. Transmission scrambled or lost. You escape without a warning. |
+| **1 or less** | Catastrophic. The log is rewritten or corrupted. |
 
 ---
 
 ## Failure Conditions
 
-- Any track reaching 0 ends the game in collapse (as per core rules).
-- Reaching **Mind 0**: You begin to accept or even assist the rewriting.
-- Reaching **Integrity 0**: The ship has changed enough that escape routes no longer function as expected.
-- If both possible exit zones become Compromised, escape by normal means is no longer possible.
+- Any track reaching 0 ends the game.
+- **Mind 0**: You begin to accept or assist the rewriting.
+- **Integrity 0**: Escape routes no longer function as expected.
+- Both exit zones Compromised: normal escape is no longer possible.
 
 ---
 
@@ -172,120 +178,116 @@ You may spend one final cycle carefully preparing the transmission. If you do, g
 
 ## Interpreting Cards on the CS Orpheus
 
-Card effects primarily impact the zone you are currently in. Use the examples below as anchors. Higher ranks should feel harder to ignore.
+Card effects primarily impact the zone you are currently in. Higher ranks should feel harder to ignore.
 
 ### ♠ Spades — Threat / Hostility
 
 **Low (2–5)**  
-You hear wet, dragging movement in the ducts above you. When you shine a light into a vent, something pale and jointed pulls back out of sight.  
-*Scale down:* Just the sound, no visual.  
-*Scale up:* It lingers and follows you.
+Wet dragging movement in the ducts. Something pale pulls back when you shine a light.  
+*Scale down:* Sound only.  
+*Scale up:* It follows you.
 
 **Medium (6–10)**  
-A former crew member (or something wearing their suit) steps into the corridor ahead. Their movements are wrong. They begin moving toward you.  
-*Scale down:* They appear but do not immediately pursue.  
-*Scale up:* There are two of them, or the single one is faster than it should be.
+A former crew member (or something wearing their suit) appears. Movements are wrong. It advances.  
+*Scale down:* It does not immediately pursue.  
+*Scale up:* Faster or more than one.
 
 **High (Jack / Queen / King)**  
-Something that used to be human corners you. It speaks with a voice that is half the original person and half the ship’s intercom. It tries to stop you from reaching an exit.  
-*Scale down:* It blocks the path but does not attack immediately.  
-*Scale up:* It is actively trying to drag you into the walls.
+Something that used to be human corners you. Voice is half human, half intercom. It tries to stop you.  
+*Scale down:* Blocks path only.  
+*Scale up:* Tries to drag you into the walls.
 
 **Ace**  
-Multiple rewritten crew coordinate against you, or a large section of the ship itself becomes hostile. The current zone may become Hazardous or Compromised.
+Multiple rewritten crew or the ship itself turns hostile. Current zone may become Hazardous or Compromised.
 
 ---
 
 ### ♥ Hearts — Human Traces / Memory
 
 **Low (2–5)**  
-You find a personal locker still open. Inside are ordinary items and a short, unfinished log entry that ends mid-sentence.  
-*Scale down:* Just the personal items.  
-*Scale up:* The log contains clear unease about the ship “changing.”
+Open locker with personal items and an unfinished log.  
+*Scale down:* Items only.  
+*Scale up:* Log shows clear unease.
 
 **Medium (6–10)**  
-You recover a security recording or personal message that shows a crew member beginning to change.  
-*Scale down:* The change is only implied.  
-*Scale up:* The person looks directly at the camera and speaks to whoever finds it.
+Recording of a crew member beginning to change.  
+*Scale down:* Change only implied.  
+*Scale up:* They speak directly to the finder.
 
 **High (Jack / Queen / King)**  
-You find detailed evidence of the transformation process: medical logs, remains fused with bulkheads, or a final group recording.  
-*Scale down:* The evidence is incomplete.  
-*Scale up:* It strongly suggests the process is already beginning in you.
+Detailed evidence of the transformation (medical logs, fused remains, final group recording).  
+*Scale down:* Incomplete.  
+*Scale up:* Suggests it is already starting in you.
 
 **Ace**  
-You discover something that recontextualizes everything — proof the rewriting began earlier than believed, or that one of your own crewmates was already compromised.
+Major revelation — the rewriting began earlier than believed, or one of your own crew was already compromised.
 
 ---
 
 ### ♦ Diamonds — Systems / Environment
 
 **Low (2–5)**  
-Lights flicker. A control panel responds sluggishly or shows garbage data.  
-*Scale down:* Purely cosmetic.  
-*Scale up:* Creates a minor hazard.
+Lights flicker. Panel shows garbage data.  
+*Scale down:* Cosmetic.  
+*Scale up:* Minor hazard.
 
 **Medium (6–10)**  
-A significant system fails or behaves incorrectly. The current zone may become Hazardous.  
-*Scale down:* Localized and temporary.  
-*Scale up:* Forces a longer or more dangerous route.
+Significant system failure or incorrect behavior. Zone may become Hazardous.  
+*Scale down:* Temporary.  
+*Scale up:* Forces longer route.
 
 **High (Jack / Queen / King)**  
-A major system is rewritten or dies. The current zone likely becomes Hazardous or Compromised.  
-*Scale down:* Still passable with effort.  
-*Scale up:* Effectively impassable without major cost.
+Major system rewritten or dead. Zone likely Hazardous or Compromised.  
+*Scale down:* Still passable.  
+*Scale up:* Effectively blocked.
 
 **Ace**  
-A ship-wide or irreversible systems event. The current zone (and possibly connected ones) may become Compromised.
+Ship-wide systems event. Current and possibly connected zones may become Compromised.
 
 ---
 
 ### ♣ Clubs — The Unknown / Cosmic
 
 **Low (2–5)**  
-The stars outside a viewport are slightly wrong. A corridor feels longer than it should. You feel observed by the ship.  
-*Scale down:* Easy to dismiss as fatigue.  
-*Scale up:* Consistent and measurable.
+Stars outside are slightly wrong. Corridor feels longer. Sense of being observed.  
+*Scale down:* Easy to dismiss.  
+*Scale up:* Measurable.
 
 **Medium (6–10)**  
-Clear impossible phenomena appear. The current zone may become Hazardous.  
+Clear impossible phenomena. Zone may become Hazardous.  
 *Scale down:* Brief.  
-*Scale up:* Actively interferes with movement or tools.
+*Scale up:* Interferes with tools or movement.
 
 **High (Jack / Queen / King)**  
-The rewriting focuses on you. Geometry folds, something notices you, or you experience direct contact. The current zone is likely becoming Hazardous.  
-*Scale down:* You break contact quickly.  
-*Scale up:* Contact continues or leaves traces.
+Rewriting focuses on you. Geometry folds or direct contact occurs. Zone likely becoming Hazardous.  
+*Scale down:* Contact broken quickly.  
+*Scale up:* Lasting traces.
 
 **Ace**  
-A fundamental change in the nature of the *Orpheus*. The current zone (and possibly others) may become Compromised.
+Fundamental change in the nature of the *Orpheus*. Current zone (and possibly others) may become Compromised.
 
 ---
 
 ## Optional Rule: Procedural Layout
 
-If you want a different map each game, use this method instead of the static layout:
+If you want a different map each game:
 
 1. Remove one card of each rank from **1 through 8** (any suits).  
-   - The **1** is your starting zone (Docking Ring equivalent).  
-   - The **8** is the exit zone (Escape / Shuttle Bay equivalent).
-2. Place the **1** face-up in the center of the play area.
+   - **1** = starting zone  
+   - **8** = exit zone
+2. Place the **1** face-up in the center.
 3. Set the **8** aside.
-4. Shuffle the remaining cards (2–7) face-down.
-5. Reveal them one at a time. Place each revealed card adjacent (sharing a full side) to at least one already placed card. Build outward.
-6. Once all cards from 2–7 are placed, put the **8** on any open edge that does **not** share a side with the **1**.
+4. Shuffle 2–7 face-down.
+5. Reveal one at a time and place each adjacent (sharing a full side) to at least one already placed card.
+6. Place the **8** on any open edge that does **not** touch the **1**.
 
-Assign the normal zone names to the ranked cards however you like (or leave them abstract). All other rules (movement rolls, zone status, rewriting) still apply.
-
-This method creates a unique layout each session but adds setup time. Recommended only after you are comfortable with the default game.
+All other rules still apply. This adds setup time and is recommended only after you know the default game.
 
 ---
 
 ## Design Notes
 
-- The roll trigger is fully mechanical (any card rank 6+ requires a roll).
-- Preferred tracks remove ambiguity about which resource to lose.
-- Default layout is static and non-linear to give meaningful route choices.
-- Procedural layout is available as an optional advanced rule.
-- Card effects primarily hit the zone you are currently in.
-- Success is possible but difficult.
+- Cycle order is fixed: Draw → Resolve → Log → Optional Movement.
+- Movement only risks damage when entering Hazardous or Compromised zones.
+- Stable movement is free.
+- The card cycle remains the primary source of pressure.
