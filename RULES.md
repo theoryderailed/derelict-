@@ -67,7 +67,7 @@ Each cycle follows this strict order:
    Mandatory. Write in-character.
 
 4. **Optional Movement**  
-   You may now move to a connected zone (see module for movement rules).
+   You may now move to a connected zone (see module for specific movement rules).
 
 Then begin the next cycle.
 
@@ -153,7 +153,7 @@ You may continue writing a few final entries after a track hits zero if it feels
 
 ## Design Notes
 
-- Cycle order is now fixed: Draw → Resolve → Log → Optional Movement.
+- Cycle order is fixed: Draw → Resolve → Log → Optional Movement.
 - Roll trigger is fully mechanical (rank 6+).
 - Preferred tracks remove ambiguity about which resource to lose.
 - The system is intentionally lethal and tends toward tragic or hard-won endings.
