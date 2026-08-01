@@ -89,11 +89,13 @@ Movement happens **after** resolving the card and writing the log (see Cycle Ord
 
 - **To a Stable zone**: Free. No roll. No damage.
 - **To a Hazardous zone**: Roll d6.  
-  - **1-4**: Arrive safely.  
-  - **5-6**: Arrive, but take –1 to the preferred track of the last card drawn.
+  - **4–6**: Arrive safely.  
+  - **1–3**: Arrive, but take –1 to the **Primary preferred track of this cycle’s card**.
 - **To a Compromised zone**: Extremely dangerous. Roll d6.  
   - **5–6**: Arrive.  
-  - **1–4**: Take –1 to the preferred track of the last card drawn.
+  - **1–4**: Take –1 to the Primary preferred track of this cycle’s card **and** –1 to a second track of your choice (or –2 to the Primary).
+
+If the cycle card was rank 2–5 (no strong preferred track), default to **Integrity**.
 
 ---
 
@@ -288,6 +290,7 @@ All other rules still apply. This adds setup time and is recommended only after 
 ## Design Notes
 
 - Cycle order is fixed: Draw → Resolve → Log → Optional Movement.
-- Movement only risks damage when entering Hazardous or Compromised zones.
+- Movement difficulty is correctly ordered: Hazardous is moderately risky, Compromised is harder and more punishing.
+- Damage from movement uses the Primary preferred track of **this cycle’s card**.
 - Stable movement is free.
 - The card cycle remains the primary source of pressure.
