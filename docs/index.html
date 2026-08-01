@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DERELICT — Solo Sci-Fi Horror RPG</title>
+  <meta name="description" content="A solo sci-fi / cosmic horror journaling RPG. You are alone on a damaged vessel. Something is wrong with it — and it is getting worse." />
+  <style>
+    :root {
+      --bg: #050508;
+      --bg-panel: #0c0c12;
+      --text: #c8c8d0;
+      --text-dim: #6a6a78;
+      --accent: #8b0000;
+      --accent-glow: #ff1a1a33;
+      --border: #1a1a24;
+      --highlight: #e8e8f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Courier New", Courier, monospace;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body {
+      background-image:
+        radial-gradient(ellipse at 20% 20%, #120808 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, #080812 0%, transparent 50%),
+        linear-gradient(180deg, #050508 0%, #0a0a10 100%);
+      min-height: 100vh;
+    }
+
+    .scanlines {
+      pointer-events: none;
+      position: fixed;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,0,0,0.15) 2px,
+        rgba(0,0,0,0.15) 4px
+      );
+      z-index: 100;
+      opacity: 0.4;
+    }
+
+    .noise {
+      pointer-events: none;
+      position: fixed;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+      z-index: 99;
+      opacity: 0.3;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 6rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo {
+      font-size: 0.75rem;
+      letter-spacing: 0.4em;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      opacity: 0.9;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 8vw, 4rem);
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      color: var(--highlight);
+      text-shadow: 0 0 40px var(--accent-glow);
+      margin-bottom: 0.75rem;
+      line-height: 1.1;
+    }
+
+    .tagline {
+      font-size: 0.95rem;
+      color: var(--text-dim);
+      max-width: 28em;
+      margin: 0 auto;
+      font-style: italic;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.35rem 0.9rem;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      font-size: 0.7rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 0.8rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: var(--text);
+    }
+
+    .panel {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+    }
+
+    .panel::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+      background: var(--accent);
+      opacity: 0.7;
+    }
+
+    .links {
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    a.btn {
+      display: block;
+      padding: 1rem 1.25rem;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      transition: all 0.2s ease;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+    }
+
+    a.btn:hover {
+      border-color: var(--accent);
+      color: var(--highlight);
+      background: #120808;
+      box-shadow: 0 0 20px var(--accent-glow);
+    }
+
+    a.btn span {
+      display: block;
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      margin-top: 0.25rem;
+      letter-spacing: 0.1em;
+    }
+
+    .warning {
+      border-color: #3a1010;
+      background: #0e0606;
+    }
+
+    .warning::before {
+      background: #5a0000;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      letter-spacing: 0.1em;
+    }
+
+    .flicker {
+      animation: flicker 4s infinite;
+    }
+
+    @keyframes flicker {
+      0%, 95%, 100% { opacity: 1; }
+      96% { opacity: 0.7; }
+      97% { opacity: 1; }
+      98% { opacity: 0.4; }
+      99% { opacity: 1; }
+    }
+
+    @media (max-width: 500px) {
+      .container { padding: 2rem 1rem 4rem; }
+      h1 { letter-spacing: 0.08em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="noise"></div>
+
+  <div class="container">
+    <header>
+      <div class="logo">// Transmission Recovered</div>
+      <h1 class="flicker">DERELICT</h1>
+      <p class="tagline">A solo sci-fi / cosmic horror journaling RPG</p>
+      <div class="status">Status: Active Threat</div>
+    </header>
+
+    <section>
+      <h2>Transmission</h2>
+      <div class="panel">
+        <p>You are alone on a damaged or abandoned vessel. Something is wrong with it — and it is getting worse.</p>
+        <p>Keep a log. Survive as long as you can. Try to escape. Try to warn someone. The ship is rewriting itself.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Access Files</h2>
+      <div class="links">
+        <a class="btn" href="../RULES.md">
+          Core Rules
+          <span>RULES.md — Dice, cards, journaling, tracks</span>
+        </a>
+        <a class="btn" href="../MODULE-01-CS-ORPHEUS.md">
+          Module 01 — CS Orpheus
+          <span>Full module with zones, movement, and interpretation guide</span>
+        </a>
+        <a class="btn" href="../CHANGELOG.md">
+          Changelog
+          <span>Design history and locked decisions</span>
+        </a>
+        <a class="btn" href="https://github.com/theoryderailed/derelict-">
+          Source Repository
+          <span>github.com/theoryderailed/derelict-</span>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <h2>System Requirements</h2>
+      <div class="panel">
+        <p>• One standard deck of 52 playing cards (Jokers removed)</p>
+        <p>• One six-sided die</p>
+        <p>• A journal or recording device</p>
+        <p style="margin-bottom:0; color: var(--text-dim);">Anyone should be able to start playing in under five minutes.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Warning</h2>
+      <div class="panel warning">
+        <p style="margin-bottom:0;">This game contains isolation, body horror, psychological deterioration, and cosmic dread. Success is possible but costly. Most endings are not clean.</p>
+      </div>
+    </section>
+
+    <footer>
+      DERELICT — Solo Horror Protocol<br />
+      Do not board the Orpheus.
+    </footer>
+  </div>
+</body>
+</html>
