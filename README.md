@@ -2,10 +2,12 @@
 
 **A solo sci-fi / cosmic horror journaling RPG**
 
+**Live site:** [https://theoryderailed.github.io/derelict-/](https://theoryderailed.github.io/derelict-/)
+
 You are alone on a damaged or abandoned vessel. Something is wrong with it — and it is getting worse. You keep a log while you try to survive, understand what happened, or simply hold on.
 
 Derelict is designed to be extremely simple:
-- One standard deck of playing cards
+- One standard deck of playing cards (Jokers removed)
 - One six-sided die
 - A journal
 
@@ -29,6 +31,8 @@ Anyone should be able to start playing in under five minutes.
 ## Files in this repository
 
 - [RULES.md](RULES.md) — Complete rules
+- [MODULE-01-CS-ORPHEUS.md](MODULE-01-CS-ORPHEUS.md) — First module
+- [CHANGELOG.md](CHANGELOG.md) — Design history
 - [EXAMPLE-GAME.md](EXAMPLE-GAME.md) — Full example playthrough
 
 ---
