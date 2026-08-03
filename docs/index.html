@@ -17,11 +17,7 @@
       --highlight: #e8e8f0;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     html, body {
       height: 100%;
@@ -44,13 +40,7 @@
       pointer-events: none;
       position: fixed;
       inset: 0;
-      background: repeating-linear-gradient(
-        0deg,
-        transparent,
-        transparent 2px,
-        rgba(0,0,0,0.15) 2px,
-        rgba(0,0,0,0.15) 4px
-      );
+      background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.15) 2px, rgba(0,0,0,0.15) 4px);
       z-index: 100;
       opacity: 0.4;
     }
@@ -117,9 +107,7 @@
       text-transform: uppercase;
     }
 
-    section {
-      margin-bottom: 3rem;
-    }
+    section { margin-bottom: 3rem; }
 
     h2 {
       font-size: 0.8rem;
@@ -131,34 +119,40 @@
       border-bottom: 1px solid var(--border);
     }
 
-    p {
-      margin-bottom: 1rem;
-      color: var(--text);
-    }
+    p { margin-bottom: 1rem; color: var(--text); }
 
     .panel {
       background: var(--bg-panel);
       border: 1px solid var(--border);
       padding: 1.5rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.25rem;
       position: relative;
     }
 
     .panel::before {
       content: "";
       position: absolute;
-      top: 0;
-      left: 0;
-      width: 3px;
-      height: 100%;
+      top: 0; left: 0;
+      width: 3px; height: 100%;
       background: var(--accent);
       opacity: 0.7;
     }
 
-    .links {
-      display: grid;
-      gap: 0.75rem;
+    .module-title {
+      font-size: 1.1rem;
+      color: var(--highlight);
+      letter-spacing: 0.08em;
+      margin-bottom: 0.5rem;
     }
+
+    .module-meta {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      margin-bottom: 0.9rem;
+      letter-spacing: 0.05em;
+    }
+
+    .links { display: grid; gap: 0.75rem; }
 
     a.btn {
       display: block;
@@ -192,9 +186,7 @@
       background: #0e0606;
     }
 
-    .warning::before {
-      background: #5a0000;
-    }
+    .warning::before { background: #5a0000; }
 
     footer {
       margin-top: 4rem;
@@ -206,9 +198,7 @@
       letter-spacing: 0.1em;
     }
 
-    .flicker {
-      animation: flicker 4s infinite;
-    }
+    .flicker { animation: flicker 4s infinite; }
 
     @keyframes flicker {
       0%, 95%, 100% { opacity: 1; }
@@ -240,7 +230,26 @@
       <h2>Transmission</h2>
       <div class="panel">
         <p>You are alone on a damaged or abandoned vessel. Something is wrong with it — and it is getting worse.</p>
-        <p>Keep a log. Survive as long as you can. Try to escape. Try to warn someone. The ship is rewriting itself.</p>
+        <p style="margin-bottom:0;">Keep a log. Survive as long as you can. Try to escape. Try to warn someone. The ship is rewriting itself.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Modules</h2>
+
+      <div class="panel">
+        <div class="module-title">01 — CS Orpheus</div>
+        <div class="module-meta">Isolation · Body Horror · Cosmic Rewriting</div>
+        <p>The research vessel <em>CS Orpheus</em> went silent while investigating an anomalous signal. You are the last salvage technician still responding. The ship is not simply dead — it is changing. Bulkheads grow seams like scars. Former crew move wrong. Something is rewriting the vessel from the inside.</p>
+        <p style="margin-bottom:0; color: var(--text-dim);">A focused, lethal short-to-medium session. Escape is possible but costly. The warning you send may not arrive intact.</p>
+      </div>
+
+      <div class="panel">
+        <div class="module-title">02 — Deadweight</div>
+        <div class="module-meta">Isolation · Unreliable AI · Progressive Revelation</div>
+        <p>You wake from cryosleep on the recovery tug <em>Harrow</em>. Three crew are dead in their pods. One pod is empty. The AI, VESSEL, is polite, helpful, and already lying by omission. The ship is still linked to the generation ship <em>Ark-7</em>.</p>
+        <p>Your first real investigation locks one of three equal scenarios: a tragic human antagonist, a hive of mutated livestock, or a broken AI that “helps” while destroying you. Higher complexity by design.</p>
+        <p style="margin-bottom:0; color: var(--text-dim);">You are alone. Or you are not.</p>
       </div>
     </section>
 
@@ -255,9 +264,17 @@
           Module 01 — CS Orpheus
           <span>Full module with zones, movement, and interpretation guide</span>
         </a>
+        <a class="btn" href="https://github.com/theoryderailed/derelict-/blob/main/MODULE-02-DEADWEIGHT.md">
+          Module 02 — Deadweight
+          <span>Three scenario lock, VESSEL, Elias Voss, and more</span>
+        </a>
         <a class="btn" href="https://github.com/theoryderailed/derelict-/blob/main/CHANGELOG.md">
           Changelog
           <span>Design history and locked decisions</span>
+        </a>
+        <a class="btn" href="https://github.com/theoryderailed/derelict-/blob/main/COPYRIGHT.md">
+          Copyright & License
+          <span>CC BY-NC 4.0 — Attribution required, non-commercial</span>
         </a>
         <a class="btn" href="https://github.com/theoryderailed/derelict-">
           Source Repository
@@ -286,7 +303,8 @@
     <footer>
       DERELICT — Solo Horror Protocol<br />
       <a href="https://theoryderailed.github.io/derelict-/" style="color: var(--text-dim);">theoryderailed.github.io/derelict-</a><br />
-      Do not board the Orpheus.
+      Licensed under CC BY-NC 4.0<br />
+      Do not board the Orpheus. Do not trust the Vessel.
     </footer>
   </div>
 </body>
