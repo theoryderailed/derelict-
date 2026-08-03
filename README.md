@@ -31,8 +31,10 @@ Anyone should be able to start playing in under five minutes.
 ## Files in this repository
 
 - [RULES.md](RULES.md) — Complete rules
-- [MODULE-01-CS-ORPHEUS.md](MODULE-01-CS-ORPHEUS.md) — First module
+- [MODULE-01-CS-ORPHEUS.md](MODULE-01-CS-ORPHEUS.md) — Module 01: CS Orpheus
+- [MODULE-02-DEADWEIGHT.md](MODULE-02-DEADWEIGHT.md) — Module 02: Deadweight
 - [CHANGELOG.md](CHANGELOG.md) — Design history
+- [COPYRIGHT.md](COPYRIGHT.md) — Copyright & attribution requirements
 - [EXAMPLE-GAME.md](EXAMPLE-GAME.md) — Full example playthrough
 
 ---
@@ -44,3 +46,9 @@ Anyone should be able to start playing in under five minutes.
 - Journaling as the primary output
 - Short, complete arcs of deterioration
 - No complex character stats or tables required
+
+---
+
+## Attribution
+
+If you copy, adapt, or redistribute this material, you **must** attribute the original creator. See [COPYRIGHT.md](COPYRIGHT.md) for full details.
