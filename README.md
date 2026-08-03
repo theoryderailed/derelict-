@@ -36,6 +36,7 @@ Anyone should be able to start playing in under five minutes.
 - [MODULE-03-STATIC.md](MODULE-03-STATIC.md) — Module 03: Static
 - [MODULE-04-MURRAY.md](MODULE-04-MURRAY.md) — Module 04: Murray
 - [MODULE-05-ECHO.md](MODULE-05-ECHO.md) — Module 05: Echo
+- [MODULE-06-GANTRY.md](MODULE-06-GANTRY.md) — Module 06: Gantry
 - [CHANGELOG.md](CHANGELOG.md) — Design history
 - [COPYRIGHT.md](COPYRIGHT.md) — Copyright & attribution requirements (CC BY-NC 4.0)
 - [EXAMPLE-GAME.md](EXAMPLE-GAME.md) — Full example playthrough
