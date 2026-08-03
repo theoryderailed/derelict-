@@ -34,6 +34,7 @@ Anyone should be able to start playing in under five minutes.
 - [MODULE-01-CS-ORPHEUS.md](MODULE-01-CS-ORPHEUS.md) — Module 01: CS Orpheus
 - [MODULE-02-DEADWEIGHT.md](MODULE-02-DEADWEIGHT.md) — Module 02: Deadweight
 - [MODULE-03-STATIC.md](MODULE-03-STATIC.md) — Module 03: Static
+- [MODULE-04-MURRAY.md](MODULE-04-MURRAY.md) — Module 04: Murray
 - [CHANGELOG.md](CHANGELOG.md) — Design history
 - [COPYRIGHT.md](COPYRIGHT.md) — Copyright & attribution requirements (CC BY-NC 4.0)
 - [EXAMPLE-GAME.md](EXAMPLE-GAME.md) — Full example playthrough
