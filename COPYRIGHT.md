@@ -21,21 +21,26 @@ This requirement applies to:
 
 ## License
 
-Unless otherwise noted, content in this repository is released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**.
+Unless otherwise noted, content in this repository is released under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 
 You are free to:
-- Share — copy and redistribute the material
-- Adapt — remix, transform, and build upon the material
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
 
 Under the following terms:
 - **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- **NonCommercial** — You may not use the material for commercial purposes.
 
-Full license text: https://creativecommons.org/licenses/by/4.0/
+Full license text: https://creativecommons.org/licenses/by-nc/4.0/
+
+### What this means in practice
+- People may freely play the game, share it with friends, adapt it for personal or non-commercial use, and create free fan content.
+- Selling the modules, including them in paid products, using them in commercial courses, or otherwise exploiting them for commercial advantage is **not** permitted without separate permission from the creator.
 
 ## Notes
 
 - *Mothership* is a trademark of Tuesday Knight Games. The *Deadweight* module was originally developed as a fan work for that system and has been adapted here. This project is not affiliated with or endorsed by Tuesday Knight Games.
-- The creator reserves the right to dual-license or relicense future versions.
+- The creator reserves the right to dual-license or relicense future versions, or to grant commercial permission on a case-by-case basis.
 
 ---
 

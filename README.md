@@ -49,6 +49,10 @@ Anyone should be able to start playing in under five minutes.
 
 ---
 
-## Attribution
+## License & Attribution
 
-If you copy, adapt, or redistribute this material, you **must** attribute the original creator. See [COPYRIGHT.md](COPYRIGHT.md) for full details.
+This work is licensed under **CC BY-NC 4.0** (Attribution-NonCommercial).
+
+You may freely play, share, and adapt it for non-commercial purposes, but you **must** give credit to the creator. Commercial use is not permitted without permission.
+
+See [COPYRIGHT.md](COPYRIGHT.md) for full details.
