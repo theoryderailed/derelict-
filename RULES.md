@@ -1,18 +1,18 @@
-# Derelict — Full Rules
+# Rules
 
-*A solo sci-fi / cosmic horror journaling game*
+A solo sci-fi / cosmic horror journaling game.
 
 ---
 
 ## Premise
 
-You are alone on a damaged or abandoned vessel or station. Something is wrong with it — and it is getting worse. You keep a log while you try to survive, understand what happened, or simply hold on as long as you can.
+You are alone on a damaged or abandoned vessel, station, or colony. Something is wrong with it, and it is getting worse. You keep a log while you try to survive, understand what happened, or simply hold on.
 
 ---
 
 ## What You Need
 
-- One standard deck of 52 playing cards (**Jokers removed**)
+- One standard deck of 52 playing cards (Jokers removed)
 - One six-sided die (d6)
 - A notebook, document, or voice recorder for your log
 
@@ -20,93 +20,86 @@ You are alone on a damaged or abandoned vessel or station. Something is wrong wi
 
 ## Character
 
-Write a short description (2–4 sentences maximum):
+Write a short description (2 to 4 sentences):
+
 - Name
 - Role / background
 - How you ended up alone here
 
-That is all. There are no other character statistics.
+There are no other character statistics.
 
 ---
 
 ## The Three Tracks
 
-All tracks start at these fixed values:
+| Track         | Starting Value | Represents                                      |
+|---------------|----------------|-------------------------------------------------|
+| **Integrity** | 6              | Physical condition of body, gear, and structure |
+| **Mind**      | 6              | Psychological stability                         |
+| **Hope**      | 4              | Belief that a meaningful outcome is still possible |
 
-| Track         | Starting Value | Represents                                       |
-|---------------|----------------|--------------------------------------------------|
-| **Integrity** | 6              | Physical state of the ship/station and your gear |
-| **Mind**      | 6              | Your psychological stability                     |
-| **Hope**      | 4              | Your remaining belief that escape is possible    |
+When any track reaches 0, the game ends (see Ending the Game).
 
-When any track reaches **0**, something permanent and bad happens (see *Ending the Game*).
+Modules may change starting values only if they explicitly say so.
 
 ---
 
 ## Setup
 
 1. Create your character.
-2. Set the three tracks to their starting values.
+2. Set the three tracks to their starting values (or the values given by the module).
 3. Shuffle the deck (Jokers removed).
-4. Write your opening log entry (how you arrived or woke up alone).
+4. Write your opening log entry.
 
 ---
 
-## The Core Loop (Cycle Order)
+## The Core Loop
 
-Each cycle follows this strict order:
+Every cycle follows this exact order:
 
-1. **Draw one card**  
-   This is the main event of the cycle.
+1. **Draw** one card. This is the main event of the cycle.
+2. **Resolve** the card (see below).
+3. **Log**. Write an in-character entry. This step is mandatory.
+4. **Optional Movement**. You may move to a connected zone if the module provides a layout.
 
-2. **Check the rank and resolve**  
-   - Rank 2–5: No roll. Interpret and write the log.  
-   - Rank 6+ (including face cards and Aces): **Must roll** the d6 and apply the result.
-
-3. **Write the log entry**  
-   Mandatory. Write in-character.
-
-4. **Optional Movement**  
-   You may now move to a connected zone (see module for specific movement rules).
-
-Then begin the next cycle.
+Modules may add extra steps inside Resolve or after the Log, but they may not reorder these four core steps.
 
 ---
 
-## When to Roll (Hard Rule)
+## When to Roll
 
 | Rank                  | Roll Required? |
 |-----------------------|----------------|
-| **2 – 5**             | No             |
-| **6 – 10**            | **Yes**        |
-| **Jack, Queen, King** | **Yes**        |
-| **Ace**               | **Yes**        |
+| 2 to 5                | No             |
+| 6 to 10               | Yes            |
+| Jack, Queen, King     | Yes            |
+| Ace                   | Yes            |
 
 ---
 
-## Resolution Table
+## Resolution
 
-When a roll is required:
+When a roll is required, roll the d6:
 
-| Roll  | Outcome            | Effect |
-|-------|--------------------|--------|
-| **5–6** | Clean Success     | No track loss. |
-| **3–4** | Success with Cost | Reduce **one** track by 1 (use Preferred Track). |
-| **1–2** | Failure           | Reduce **two** tracks by 1 each, **or** one track by 2 (use Preferred Tracks). |
+| Roll  | Outcome            | Effect                                      |
+|-------|--------------------|---------------------------------------------|
+| 5 to 6 | Clean Success     | No track loss                               |
+| 3 to 4 | Success with Cost | Lose 1 track (use Preferred Track)          |
+| 1 to 2 | Failure           | Lose 2 tracks total (use Preferred Tracks)  |
 
----
+### Preferred Tracks by Suit
 
-## Preferred Tracks by Suit
+| Suit       | Primary     | Secondary |
+|------------|-------------|-----------|
+| Spades     | Integrity   | Mind      |
+| Hearts     | Mind        | Hope      |
+| Diamonds   | Integrity   | Hope      |
+| Clubs      | Mind        | Hope      |
 
-| Suit       | Primary Track | Secondary Track |
-|------------|---------------|-----------------|
-| **♠ Spades** (Threat)     | Integrity    | Mind     |
-| **♥ Hearts** (Memory)     | Mind         | Hope     |
-| **♦ Diamonds** (Systems)  | Integrity    | Hope     |
-| **♣ Clubs** (Cosmic)      | Mind         | Hope     |
+- **Success with Cost (3 to 4):** Reduce the Primary track by 1. If it is already at 1, reduce the Secondary instead.
+- **Failure (1 to 2):** Reduce Primary and Secondary by 1 each, or reduce Primary by 2.
 
-- On **Success with Cost (3–4)**: Reduce the Primary track by 1. If it is already at 1, reduce the Secondary instead.
-- On **Failure (1–2)**: Reduce Primary + Secondary by 1 each, or Primary by 2.
+Modules may override Preferred Tracks only when they explicitly state a different rule.
 
 ---
 
@@ -114,46 +107,72 @@ When a roll is required:
 
 ### Suits
 
-| Suit       | Meaning                  | Typical Pressure                            |
-|------------|--------------------------|---------------------------------------------|
-| ♠ Spades   | Threat / Hostility       | Something aggressive or actively dangerous  |
-| ♥ Hearts   | Human Traces / Memory    | Logs, bodies, personal effects, past events |
-| ♦ Diamonds | Systems / Environment    | Failures, hull issues, life support, power  |
-| ♣ Clubs    | The Unknown / Cosmic     | Impossible geometry, entities, reality breaks |
+| Suit       | Meaning                 | Typical Pressure                                      |
+|------------|-------------------------|-------------------------------------------------------|
+| Spades     | Threat / Hostility      | Direct danger, violence, active opposition            |
+| Hearts     | Human Traces / Memory   | People, logs, personal cost, emotional weight         |
+| Diamonds   | Systems / Environment   | Structure, equipment, power, information              |
+| Clubs      | The Unknown / Cosmic    | Anomalies, entities, reality strain, the void         |
 
 ### Rank Intensity
 
-- **2–5**: Low intensity. Subtle or manageable. (No roll)
-- **6–10**: Medium intensity. Clear pressure. (Must roll)
-- **Jack / Queen / King**: High intensity. (Must roll)
-- **Ace**: Major turning point. (Must roll)
+- **2 to 5:** Low. Subtle or manageable (no roll).
+- **6 to 10:** Medium. Clear pressure (must roll).
+- **Jack / Queen / King:** High (must roll).
+- **Ace:** Major turning point (must roll).
+
+---
+
+## Zones and Movement
+
+Many modules use a static layout of zones.
+
+### Zone Status
+
+| Status         | Meaning                        | Default Movement                              |
+|----------------|--------------------------------|-----------------------------------------------|
+| **Stable**     | Safe to occupy                 | Free                                          |
+| **Hazardous**  | Dangerous but passable         | Roll 4 or higher, or take 1 preferred damage  |
+| **Compromised**| Actively failing or hostile    | Roll 5 or higher, or take 1 to 2 preferred damage |
+
+Modules may change the exact movement costs but should use these three status names for consistency.
+
+Movement is always optional and happens only after the Log step.
+
+---
+
+## Deck Exhaustion
+
+When the deck runs out, reshuffle the discard pile and continue.
+
+Modules may modify this rule if needed.
 
 ---
 
 ## Ending the Game
 
-The game ends when any of the following occur:
+The game ends when:
 
-- **Integrity reaches 0** — The structure or your equipment fails completely.
-- **Mind reaches 0** — You break. Future log entries become fragmented or alien.
-- **Hope reaches 0** — You accept there is no escape.
-- You choose to end it (final escape attempt or deliberate shutdown of the log).
+- Any track reaches 0, or
+- A module's specific failure condition is met, or
+- You choose to end the log.
 
-You may continue writing a few final entries after a track hits zero if it feels right.
+You may write a short final entry after the end if it feels right.
 
 ---
 
-## Optional Light Rules
+## Module Authority
 
-- **Face-down draw**: When you draw a black card (♠ or ♣), you may draw the next card face-down and only reveal it after writing part of the log.
-- **Burn a card**: Once per game you may permanently remove a card from the deck to cancel a catastrophic result. Doing so costs –1 Hope.
-- **Rest cycle**: You may spend a cycle trying to recover (+1 to one track, maximum starting value). You still draw a card.
+Modules may add, replace, or override any core rule.
+
+When a module rule conflicts with this document, the module wins for that session.
 
 ---
 
 ## Design Notes
 
-- Cycle order is fixed: Draw → Resolve → Log → Optional Movement.
-- Roll trigger is fully mechanical (rank 6+).
-- Preferred tracks remove ambiguity about which resource to lose.
-- The system is intentionally lethal and tends toward tragic or hard-won endings.
+- The cycle order is fixed and non-negotiable.
+- Roll triggers are purely mechanical (rank 6 or higher).
+- Preferred Tracks remove ambiguity about which resource to lose.
+- The system is intentionally lean and tends toward costly or tragic endings.
+- All special procedures and exceptions live in the modules.
