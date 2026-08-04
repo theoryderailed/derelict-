@@ -1,12 +1,14 @@
-# Derelict
+# Derelict (Working Title)
 
 **A solo sci-fi / cosmic horror journaling RPG**
 
 **Live site:** [https://theoryderailed.github.io/derelict-/](https://theoryderailed.github.io/derelict-/)
 
-You are alone on a damaged or abandoned vessel. Something is wrong with it — and it is getting worse. You keep a log while you try to survive, understand what happened, or simply hold on.
+> **Note:** The name *Derelict* is a temporary placeholder. A final name will be chosen to avoid collision with existing titles.
 
-Derelict is designed to be extremely simple:
+You are alone on a damaged or abandoned vessel (or station, colony, scaffold…). Something is wrong with it — and it is getting worse. You keep a log while you try to survive, understand what happened, or simply hold on.
+
+The game is designed to be extremely simple:
 - One standard deck of playing cards (Jokers removed)
 - One six-sided die
 - A journal
@@ -28,20 +30,52 @@ Anyone should be able to start playing in under five minutes.
 
 ---
 
+## Module Packages
+
+Each module is designed as a self-contained package intended for eventual collection into a short published book. A complete module package contains:
+
+1. **Module Overview**  
+   Short premise, tone, and what makes the module unique.
+
+2. **Full Example Playthrough**  
+   A short, realistic run (usually 7–9 cycles) that demonstrates the core loop, the module’s special tools, and how the story develops. Includes sample log entries.
+
+3. **FAQ / Common Situations**  
+   A short, focused list of practical answers to the questions players are most likely to encounter with that module’s unique mechanics.
+
+4. **Quick Reference** (optional)  
+   One-page summary of the module’s special rules for easy use at the table.
+
+### Current Modules
+
+| #  | Module            | Focus                                      | Status          |
+|----|-------------------|--------------------------------------------|-----------------|
+| 01 | CS Orpheus        | Cosmic rewriting / body horror             | Core rules only |
+| 02 | Deadweight        | Unreliable AI + three scenario locks       | Core rules only |
+| 03 | Static            | Signal lure / rescuer ambiguity            | Core rules only |
+| 04 | Murray            | Time-loop alien escape                     | Core rules only |
+| 05 | Echo              | Identity A/B testing + journal warfare     | Core rules only |
+| 06 | Gantry            | Industrial cosmic horror + social pressure | Core rules only |
+| 07 | Dead Haul         | Pulp-noir serial killer investigation      | Package started |
+| 08 | Hard Vacuum       | Environmental survival, hold until rescue  | Package started |
+
+Example playthroughs and FAQs have been drafted for **Hard Vacuum** and **Dead Haul**. The remaining modules will receive the same treatment.
+
+---
+
 ## Files in this repository
 
-- [RULES.md](RULES.md) — Complete rules
-- [MODULE-01-CS-ORPHEUS.md](MODULE-01-CS-ORPHEUS.md) — Module 01: CS Orpheus
-- [MODULE-02-DEADWEIGHT.md](MODULE-02-DEADWEIGHT.md) — Module 02: Deadweight
-- [MODULE-03-STATIC.md](MODULE-03-STATIC.md) — Module 03: Static
-- [MODULE-04-MURRAY.md](MODULE-04-MURRAY.md) — Module 04: Murray
-- [MODULE-05-ECHO.md](MODULE-05-ECHO.md) — Module 05: Echo
-- [MODULE-06-GANTRY.md](MODULE-06-GANTRY.md) — Module 06: Gantry
-- [MODULE-07-DEAD-HAUL.md](MODULE-07-DEAD-HAUL.md) — Module 07: Dead Haul
-- [MODULE-08-HARD-VACUUM.md](MODULE-08-HARD-VACUUM.md) — Module 08: Hard Vacuum
+- [RULES.md](RULES.md) — Complete core rules
+- [MODULE-01-CS-ORPHEUS.md](MODULE-01-CS-ORPHEUS.md)
+- [MODULE-02-DEADWEIGHT.md](MODULE-02-DEADWEIGHT.md)
+- [MODULE-03-STATIC.md](MODULE-03-STATIC.md)
+- [MODULE-04-MURRAY.md](MODULE-04-MURRAY.md)
+- [MODULE-05-ECHO.md](MODULE-05-ECHO.md)
+- [MODULE-06-GANTRY.md](MODULE-06-GANTRY.md)
+- [MODULE-07-DEAD-HAUL.md](MODULE-07-DEAD-HAUL.md)
+- [MODULE-08-HARD-VACUUM.md](MODULE-08-HARD-VACUUM.md)
 - [CHANGELOG.md](CHANGELOG.md) — Design history
-- [COPYRIGHT.md](COPYRIGHT.md) — Copyright & attribution requirements (CC BY-NC 4.0)
-- [EXAMPLE-GAME.md](EXAMPLE-GAME.md) — Full example playthrough
+- [COPYRIGHT.md](COPYRIGHT.md) — Copyright & attribution (CC BY-NC 4.0)
 
 ---
 
@@ -51,7 +85,7 @@ Anyone should be able to start playing in under five minutes.
 - Strong focus on isolation and cosmic dread
 - Journaling as the primary output
 - Short, complete arcs of deterioration
-- No complex character stats or tables required
+- Module-specific tools that do not break the core engine
 
 ---
 
