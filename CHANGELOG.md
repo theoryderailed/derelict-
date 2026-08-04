@@ -1,37 +1,47 @@
-# Derelict – Changelog
+# Changelog
 
 Newest entries first.
 
 ---
 
-## [Unreleased]
+## 2026-08-03
 
-### Movement Tuning (Final)
-- **Hazardous zones**: Success on 4–6. Failure (1–3) = –1 to Primary preferred track of this cycle’s card.
-- **Compromised zones**: Success on 5–6. Failure (1–4) = –1 Primary + –1 second track (or –2 Primary).
-- Damage always references **this cycle’s card** (not “last card”).
-- Stable movement remains free.
-- Difficulty order is now correct: Compromised is harder and more punishing than Hazardous.
+### Core Rules Polish
+- Removed all optional rules from the core document. Special procedures now live only in modules.
+- Added universal Zone Status definitions (Stable / Hazardous / Compromised).
+- Clarified Preferred Tracks wording and resolution.
+- Added explicit deck exhaustion rule: reshuffle the discard pile and continue.
+- Added Module Authority section: when a module conflicts with core rules, the module wins.
+- Cleaned wording and punctuation throughout. Removed em dashes.
+- Fixed cycle order language and rank intensity descriptions.
 
-### Cycle Order & Structure
-- Locked: Draw → Resolve → Log → Optional Movement
-- Hard roll trigger: Rank 6+ must roll
-- Preferred Tracks by Suit table
+### Modules Complete (10 total)
+1. CS Orpheus – Cosmic rewriting / body horror
+2. Deadweight – Unreliable AI + three scenario locks
+3. Static – Signal lure / rescuer ambiguity
+4. Murray – Time-loop alien escape
+5. Echo – Identity A/B testing + journal warfare
+6. Gantry – Industrial cosmic horror + social conformity
+7. Dead Haul – Pulp-noir serial killer investigation
+8. Hard Vacuum – Environmental survival, hold until rescue
+9. Quarantined – Medical horror, moral uncertainty
+10. Covenant – Generation ship, living religion, outcast social horror
 
-### Ship Layout
-- Static non-linear layout as default
-- Procedural layout as optional rule
-- Zone status: Stable / Hazardous / Compromised
+### Module Packages
+- Example playthrough + FAQ drafted for Hard Vacuum and Dead Haul.
+- Remaining modules still need packages for the eventual book.
 
-### CS Orpheus
-- Full interpretation examples
-- Final Transmission Roll for success condition
+### Naming
+- "Derelict" remains a temporary placeholder due to existing title collisions. Final name still open.
 
 ---
 
-## Design Principles
+## Earlier Design Decisions (Summary)
 
-- Card cycle is the primary source of danger
-- Movement only risks damage when zone status justifies it
-- Compromised > Hazardous > Stable in both difficulty and consequence
-- Extreme simplicity maintained
+- Cycle order locked: Draw → Resolve → Log → Optional Movement
+- Hard roll trigger: Rank 6+ must roll
+- Preferred Tracks by Suit table
+- Jokers permanently removed from the deck
+- Movement damage only when zone status justifies it
+- Static layouts preferred; procedural layouts optional per module
+- License: CC BY-NC 4.0

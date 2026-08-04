@@ -6,7 +6,7 @@
 
 > **Note:** The name *Derelict* is a temporary placeholder. A final name will be chosen to avoid collision with existing titles.
 
-You are alone on a damaged or abandoned vessel (or station, colony, scaffold…). Something is wrong with it — and it is getting worse. You keep a log while you try to survive, understand what happened, or simply hold on.
+You are alone on a damaged or abandoned vessel, station, or colony. Something is wrong with it, and it is getting worse. You keep a log while you try to survive, understand what happened, or simply hold on.
 
 The game is designed to be extremely simple:
 - One standard deck of playing cards (Jokers removed)
@@ -38,13 +38,10 @@ Each module is designed as a self-contained package intended for eventual collec
    Short premise, tone, and what makes the module unique.
 
 2. **Full Example Playthrough**  
-   A short, realistic run (usually 7–9 cycles) that demonstrates the core loop, the module’s special tools, and how the story develops. Includes sample log entries.
+   A short, realistic run that demonstrates the core loop, the module’s special tools, and how the story develops. Includes sample log entries.
 
 3. **FAQ / Common Situations**  
    A short, focused list of practical answers to the questions players are most likely to encounter with that module’s unique mechanics.
-
-4. **Quick Reference** (optional)  
-   One-page summary of the module’s special rules for easy use at the table.
 
 ### Current Modules
 
@@ -61,13 +58,11 @@ Each module is designed as a self-contained package intended for eventual collec
 | 09 | Quarantined       | Medical horror, moral uncertainty          | Core rules only |
 | 10 | Covenant          | Generation ship, living religion, outcast  | Core rules only |
 
-Example playthroughs and FAQs have been drafted for **Hard Vacuum** and **Dead Haul**. The remaining modules will receive the same treatment.
-
 ---
 
 ## Files in this repository
 
-- [RULES.md](RULES.md) — Complete core rules
+- [RULES.md](RULES.md) — Complete core rules (polished)
 - [MODULE-01-CS-ORPHEUS.md](MODULE-01-CS-ORPHEUS.md)
 - [MODULE-02-DEADWEIGHT.md](MODULE-02-DEADWEIGHT.md)
 - [MODULE-03-STATIC.md](MODULE-03-STATIC.md)
@@ -79,7 +74,7 @@ Example playthroughs and FAQs have been drafted for **Hard Vacuum** and **Dead H
 - [MODULE-09-QUARANTINED.md](MODULE-09-QUARANTINED.md)
 - [MODULE-10-COVENANT.md](MODULE-10-COVENANT.md)
 - [CHANGELOG.md](CHANGELOG.md) — Design history
-- [COPYRIGHT.md](COPYRIGHT.md) — Copyright & attribution (CC BY-NC 4.0)
+- [COPYRIGHT.md](COPYRIGHT.md) — Copyright and attribution (CC BY-NC 4.0)
 
 ---
 
@@ -93,10 +88,10 @@ Example playthroughs and FAQs have been drafted for **Hard Vacuum** and **Dead H
 
 ---
 
-## License & Attribution
+## License and Attribution
 
 This work is licensed under **CC BY-NC 4.0** (Attribution-NonCommercial).
 
-You may freely play, share, and adapt it for non-commercial purposes, but you **must** give credit to the creator. Commercial use is not permitted without permission.
+You may freely play, share, and adapt it for non-commercial purposes, but you must give credit to the creator. Commercial use is not permitted without permission.
 
 See [COPYRIGHT.md](COPYRIGHT.md) for full details.
