@@ -59,6 +59,7 @@ Each module is designed as a self-contained package intended for eventual collec
 | 07 | Dead Haul         | Pulp-noir serial killer investigation      | Package started |
 | 08 | Hard Vacuum       | Environmental survival, hold until rescue  | Package started |
 | 09 | Quarantined       | Medical horror, moral uncertainty          | Core rules only |
+| 10 | Covenant          | Generation ship, living religion, outcast  | Core rules only |
 
 Example playthroughs and FAQs have been drafted for **Hard Vacuum** and **Dead Haul**. The remaining modules will receive the same treatment.
 
@@ -76,6 +77,7 @@ Example playthroughs and FAQs have been drafted for **Hard Vacuum** and **Dead H
 - [MODULE-07-DEAD-HAUL.md](MODULE-07-DEAD-HAUL.md)
 - [MODULE-08-HARD-VACUUM.md](MODULE-08-HARD-VACUUM.md)
 - [MODULE-09-QUARANTINED.md](MODULE-09-QUARANTINED.md)
+- [MODULE-10-COVENANT.md](MODULE-10-COVENANT.md)
 - [CHANGELOG.md](CHANGELOG.md) — Design history
 - [COPYRIGHT.md](COPYRIGHT.md) — Copyright & attribution (CC BY-NC 4.0)
 
