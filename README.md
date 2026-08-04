@@ -34,7 +34,7 @@ Anyone should be able to start playing in under five minutes.
 
 ```
 /
-├── RULES.md              ← Core rules
+├── RULES.md
 ├── README.md
 ├── CHANGELOG.md
 ├── COPYRIGHT.md
@@ -53,44 +53,40 @@ Anyone should be able to start playing in under five minutes.
     │   └── module.md
     ├── 07-dead-haul/
     │   ├── module.md
-    │   └── package.md    ← Example playthrough + FAQ
+    │   ├── playthrough.md
+    │   └── faq.md
     ├── 08-hard-vacuum/
     │   ├── module.md
-    │   └── package.md    ← Example playthrough + FAQ
+    │   ├── playthrough.md
+    │   └── faq.md
     ├── 09-quarantined/
     │   └── module.md
     └── 10-covenant/
         └── module.md
 ```
 
-Each module lives in its own directory.  
-`module.md` contains the full rules for that scenario.  
-`package.md` (when present) contains a short example playthrough and a focused FAQ.
+Each module lives in its own directory.
+
+- `module.md` — full rules for that scenario
+- `playthrough.md` — short example playthrough (when present)
+- `faq.md` — focused FAQ for the module’s unique tools (when present)
 
 ---
 
-## Module Packages
+## Current Modules
 
-A complete module package contains:
-
-1. **Module Overview** – Short premise, tone, and unique tools
-2. **Example Playthrough** – Short, realistic run with sample log entries
-3. **FAQ** – Practical answers focused on that module’s special mechanics
-
-### Current Modules
-
-| #  | Module            | Focus                                      | Package |
-|----|-------------------|--------------------------------------------|---------|
-| 01 | CS Orpheus        | Cosmic rewriting / body horror             | —       |
-| 02 | Deadweight        | Unreliable AI + three scenario locks       | —       |
-| 03 | Static            | Signal lure / rescuer ambiguity            | —       |
-| 04 | Murray            | Time-loop alien escape                     | —       |
-| 05 | Echo              | Identity A/B testing + journal warfare     | —       |
-| 06 | Gantry            | Industrial cosmic horror + social pressure | —       |
-| 07 | Dead Haul         | Pulp-noir serial killer investigation      | Yes     |
-| 08 | Hard Vacuum       | Environmental survival, hold until rescue  | Yes     |
-| 09 | Quarantined       | Medical horror, moral uncertainty          | —       |
-| 10 | Covenant          | Generation ship, living religion, outcast  | —       |
+| #  | Module            | Focus                                      | Playthrough + FAQ |
+|----|-------------------|--------------------------------------------|-------------------|
+| 01 | CS Orpheus        | Cosmic rewriting / body horror             | —                 |
+| 02 | Deadweight        | Unreliable AI + three scenario locks       | —                 |
+| 03 | Static            | Signal lure / rescuer ambiguity            | —                 |
+| 04 | Murray            | Time-loop alien escape                     | —                 |
+| 05 | Echo              | Identity A/B testing + journal warfare     | —                 |
+| 06 | Gantry            | Industrial cosmic horror + social pressure | —                 |
+| 07 | Dead Haul         | Pulp-noir serial killer investigation      | Yes               |
+| 08 | Hard Vacuum       | Environmental survival, hold until rescue  | Yes               |
+| 09 | Quarantined       | Medical horror, moral uncertainty          | —                 |
+| 10 | Covenant          | Generation ship, living religion, outcast  | —                 |
 
 ---
 
