@@ -38,6 +38,7 @@ Anyone should be able to start playing in under five minutes.
 ├── README.md
 ├── CHANGELOG.md
 ├── COPYRIGHT.md
+├── art/                  ← module atmosphere images
 └── modules/
     ├── 01-cs-orpheus/
     │   ├── module.md
@@ -47,34 +48,7 @@ Anyone should be able to start playing in under five minutes.
     │   ├── module.md
     │   ├── playthrough.md
     │   └── faq.md
-    ├── 03-static/
-    │   ├── module.md
-    │   ├── playthrough.md
-    │   └── faq.md
-    ├── 04-murray/
-    │   ├── module.md
-    │   ├── playthrough.md
-    │   └── faq.md
-    ├── 05-echo/
-    │   ├── module.md
-    │   ├── playthrough.md
-    │   └── faq.md
-    ├── 06-gantry/
-    │   ├── module.md
-    │   ├── playthrough.md
-    │   └── faq.md
-    ├── 07-dead-haul/
-    │   ├── module.md
-    │   ├── playthrough.md
-    │   └── faq.md
-    ├── 08-hard-vacuum/
-    │   ├── module.md
-    │   ├── playthrough.md
-    │   └── faq.md
-    ├── 09-quarantined/
-    │   ├── module.md
-    │   ├── playthrough.md
-    │   └── faq.md
+    ├── … (all ten modules)
     └── 10-covenant/
         ├── module.md
         ├── playthrough.md
@@ -105,6 +79,12 @@ Each module lives in its own directory.
 | 10 | Covenant          | Generation ship, living religion, outcast  |
 
 All ten modules include a complete package: rules, example playthrough, and FAQ.
+
+---
+
+## Art
+
+See the [`art/`](art/) folder for atmospheric images matching several modules (Hard Vacuum, Covenant, Gantry, Quarantined, Echo).
 
 ---
 
