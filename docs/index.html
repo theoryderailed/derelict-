@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Derelict Logs — Solo Sci-Fi Horror RPG</title>
+  <meta name="description" content="The Derelict Logs — a solo sci-fi / cosmic horror journaling RPG by Atticus Black. You are alone on a damaged vessel. Something is wrong with it, and it is getting worse." />
+  <style>
+    :root {
+      --bg: #050508;
+      --bg-panel: #0c0c12;
+      --text: #c8c8d0;
+      --text-dim: #6a6a78;
+      --accent: #8b0000;
+      --accent-glow: #ff1a1a33;
+      --border: #1a1a24;
+      --highlight: #e8e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Courier New", Courier, monospace;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    body {
+      background-image:
+        radial-gradient(ellipse at 20% 20%, #120808 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, #080812 0%, transparent 50%),
+        linear-gradient(180deg, #050508 0%, #0a0a10 100%);
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 6rem;
+      position: relative;
+      z-index: 1;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .logo {
+      font-size: 0.75rem;
+      letter-spacing: 0.4em;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      opacity: 0.9;
+    }
+    h1 {
+      font-size: 1.8rem;
+      letter-spacing: 0.12em;
+      color: var(--highlight);
+      margin-bottom: 0.75rem;
+      font-weight: normal;
+    }
+    .tagline {
+      color: var(--text-dim);
+      font-size: 0.9rem;
+      max-width: 28rem;
+      margin: 0 auto;
+    }
+    .author {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      letter-spacing: 0.08em;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    h2 {
+      font-size: 0.85rem;
+      letter-spacing: 0.2em;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+    }
+    p { margin-bottom: 0.9rem; font-size: 0.9rem; }
+    ul { margin: 0.5rem 0 1rem 1.25rem; font-size: 0.9rem; }
+    li { margin-bottom: 0.35rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .module-list {
+      list-style: none;
+      margin-left: 0;
+    }
+    .module-list li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+    .module-list strong { color: var(--highlight); }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-dim);
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">THE DERELICT LOGS</div>
+      <h1 class="flicker">The Derelict Logs</h1>
+      <p class="tagline">A solo sci-fi / cosmic horror journaling game. You are alone. Something is wrong. You keep a log.</p>
+      <p class="author">by Atticus Black</p>
+    </header>
+
+    <section>
+      <h2>The Game</h2>
+      <p>One standard deck of cards (Jokers removed). One six-sided die. A journal. That is all.</p>
+      <p>Ten self-contained modules. One lean engine. Isolation, attrition, and cosmic dread.</p>
+      <p><a href="https://github.com/theoryderailed/derelict-">View the full rules and modules on GitHub</a></p>
+    </section>
+
+    <section>
+      <h2>Modules</h2>
+      <ul class="module-list">
+        <li><strong>01 CS Orpheus</strong> — Cosmic rewriting / body horror</li>
+        <li><strong>02 Deadweight</strong> — Unreliable AI + scenario locks</li>
+        <li><strong>03 Static</strong> — Signal lure / rescuer ambiguity</li>
+        <li><strong>04 Murray</strong> — Time-loop alien escape</li>
+        <li><strong>05 Echo</strong> — Identity A/B testing + journal warfare</li>
+        <li><strong>06 Gantry</strong> — Industrial cosmic horror + social pressure</li>
+        <li><strong>07 Dead Haul</strong> — Pulp-noir serial killer investigation</li>
+        <li><strong>08 Hard Vacuum</strong> — Environmental survival, hold until rescue</li>
+        <li><strong>09 Quarantined</strong> — Medical horror, moral uncertainty</li>
+        <li><strong>10 Covenant</strong> — Generation ship, living religion, outcast</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>License</h2>
+      <p>CC BY-NC 4.0. Free to play, share, and adapt for non-commercial use with attribution to Atticus Black. Commercial use requires permission.</p>
+    </section>
+
+    <footer>
+      The Derelict Logs · by Atticus Black · CC BY-NC 4.0
+    </footer>
+  </div>
+</body>
+</html>
