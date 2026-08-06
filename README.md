@@ -1,10 +1,9 @@
-# Derelict (Working Title)
+# The Derelict Logs
 
-**A solo sci-fi / cosmic horror journaling RPG**
+**A solo sci-fi / cosmic horror journaling RPG**  
+by **Atticus Black**
 
 **Live site:** [https://theoryderailed.github.io/derelict-/](https://theoryderailed.github.io/derelict-/)
-
-> **Note:** The name *Derelict* is a temporary placeholder. A final name will be chosen to avoid collision with existing titles.
 
 You are alone on a damaged or abandoned vessel, station, or colony. Something is wrong with it, and it is getting worse. You keep a log while you try to survive, understand what happened, or simply hold on.
 
@@ -38,28 +37,28 @@ Anyone should be able to start playing in under five minutes.
 ├── README.md
 ├── CHANGELOG.md
 ├── COPYRIGHT.md
-├── art/                  ← module atmosphere images
+├── art/
 └── modules/
     ├── 01-cs-orpheus/
     │   ├── module.md
     │   ├── playthrough.md
     │   └── faq.md
     ├── 02-deadweight/
-    │   ├── module.md
-    │   ├── playthrough.md
-    │   └── faq.md
-    ├── … (all ten modules)
+    ├── 03-static/
+    ├── 04-murray/
+    ├── 05-echo/
+    ├── 06-gantry/
+    ├── 07-dead-haul/
+    ├── 08-hard-vacuum/
+    ├── 09-quarantined/
     └── 10-covenant/
-        ├── module.md
-        ├── playthrough.md
-        └── faq.md
 ```
 
 Each module lives in its own directory.
 
 - `module.md` — full rules for that scenario
 - `playthrough.md` — short example playthrough
-- `faq.md` — focused FAQ for the module’s unique tools
+- `faq.md` — focused FAQ for the module's unique tools
 
 ---
 
@@ -82,12 +81,6 @@ All ten modules include a complete package: rules, example playthrough, and FAQ.
 
 ---
 
-## Art
-
-See the [`art/`](art/) folder for atmospheric images matching several modules (Hard Vacuum, Covenant, Gantry, Quarantined, Echo).
-
----
-
 ## Design Goals
 
 - Extremely low barrier to entry
@@ -102,6 +95,6 @@ See the [`art/`](art/) folder for atmospheric images matching several modules (H
 
 This work is licensed under **CC BY-NC 4.0** (Attribution-NonCommercial).
 
-You may freely play, share, and adapt it for non-commercial purposes, but you must give credit to the creator. Commercial use is not permitted without permission.
+You may freely play, share, and adapt it for non-commercial purposes, but you must give credit to **Atticus Black**. Commercial use is not permitted without permission.
 
 See [COPYRIGHT.md](COPYRIGHT.md) for full details.
