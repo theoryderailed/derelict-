@@ -1,6 +1,6 @@
-# Rules
+# The Derelict Logs — Rules
 
-A solo sci-fi / cosmic horror journaling game.
+A solo sci-fi / cosmic horror journaling game by Atticus Black.
 
 ---
 
